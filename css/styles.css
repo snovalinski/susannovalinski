@@ -1,0 +1,247 @@
+/*nota: dejé unas notas con dudas que tengo :)*/
+*{ 
+	margin: 0;
+	padding: 0;
+}
+
+header {
+	display: flex; 
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	margin: 60px 0px 20px 0px;
+	background-size: cover;
+}
+
+nav ul{
+	display: flex;
+	flex-direction: row;
+    justify-content: space-around;
+    width: 40vw;
+    height: 8vh;
+    margin: 60px 200px 50px 0px;
+    list-style-type: none;
+}
+
+nav a {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 18px;
+    color: blue;
+    text-decoration: none;
+}
+
+nav a:hover {
+    color: orange;
+    transition: (1s) ease;
+    font-size: 25px;
+}
+
+.fotoFondo {
+	background-image: url(../img/whitebackground.jpg);
+	width: 100vw;
+	height: 25vh;
+	margin: 5px 5px 5px 5px;}
+
+.boxLogo {
+	width: 25vw;
+	height: 13vh;
+	margin: 30px 8px 15px 160px;
+}
+
+/*intro*/
+
+Intro {
+	/*background-color: magenta;*/
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	height: 500px
+}
+
+.boxFotoPersonal {
+	width: 26vw;
+	height: 50vh;
+	margin: 80px 8px 15px 200px;
+}
+
+.intro {
+	width: 26vw;
+	height: 30vh;
+	background-color:  lightblue;
+	margin: 140px 300px 50px 80px;
+}
+
+/*section*/
+
+.gridNoticias {
+	display: grid;
+	/*border: solid 4px purple ;*/
+	grid-template-columns: 0.75fr 1.5fr 0.75fr;
+	grid-template-rows: 1fr 1fr;
+	/*background-color: lightblue;*/	
+	grid-template-areas: 
+	"fotoNews linkNews asideNews"
+	"fotoNews linkNews asideComments"
+}
+
+#fotoNews {
+	grid-area: fotoNews;
+}
+
+#linkNews {
+	grid-area: linkNews;
+	/*border: solid 4px red;*/
+}
+
+#asideNews {
+	grid-area: asideNews;
+	/*border: solid 4px red;*/
+}
+
+#asideComments {
+	grid-area: asideComments;
+	/*border: solid 4px green;*/
+}
+
+.boxFotoNews {
+	width: 20vw;
+	height: 31vh; 
+	/*border: solid; color: blue;*/
+	margin: 40px 0px 40px 100px; 
+}
+
+.boxFotoNews:hover {
+	width: 25vw;
+	height: 38vh; 
+}
+
+.boxLinkNews {
+	text-align: justify;
+	width: 85%;
+	margin: 0 auto;
+}
+
+.boxAsideNews {
+	text-align: justify;
+	width: 50%;
+	margin: 0 auto;
+}
+
+.boxAsideComments {
+	text-align: justify;
+	width: 50%;
+	margin: 0 auto;
+}
+
+/*duda: ¿cómo puedo ubicar estas cajas centradas con respecto a la foto sin tantear la medida?*/
+.boxNews {
+	width: 25vw;
+	height: 20vh; 
+	/*border: solid; color: black;*/
+	margin: 40px 0px 40px 100px;
+	padding-top: 50px
+}
+
+/*footer*/
+
+footer {
+	background-image: url(../img/whitebackground.jpg);
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+	background-size: cover;
+}
+
+.boxNavFooter {
+	margin: 10px 0px 50px 50px;
+}
+
+.LogoFooter {
+	width: 25vw;
+	height: 13vh;
+	margin: 40px 8px 15px 80px;
+}
+
+/*duda: ¿cómo logro hacer que esto me quede dentro del área de la página?*/
+.boxNetworks {
+	background-color: grey;
+	width: 25vw;
+	height: 13vh;
+	margin: 40px 30px 15px 0px;
+}
+
+/*aquí termina la página index.html*/
+
+/*aquí empieza la página noticias.html*/
+
+.fondoNoticias {
+	background-image: url(../img/technology.jpg);
+	height: 500px;
+	background-size: cover;
+}
+
+/*tengo una duda con respecto a esto: si es un div? porque no se mueve como recuadro?
+no logro que este recuadro amarillo se mueva, al aumentar cualquier medida lo que ocurre 
+es que aumenta la superficie amarilla, tengo un problema de comprensión de este concepto*/
+.infoNoticias {
+	background-color: yellow;
+	text-align: justify;
+	width: 30%;
+	padding: 30px 30px 30px 100px;
+}
+
+/*página: servicios.html*/
+
+.imagenFondoServicios {
+	background-image: url(../img/consultoriovioleta.jpg);
+	height: 550px;
+	background-size: cover;
+}
+
+/*coloque esto asi porque tengo la duda de como hacer un recuadro que solo abarque la tabla?
+y luego mover solo ese recuadro?*/
+.motivosConsulta {
+	background-color: grey;
+	text-align: justify;
+	width: 30%;
+	padding: 80px 50px 50px 100px;
+}
+
+.diasConsulta {
+	margin: 0px 50px 50px 50px;
+	padding: 0px 50px 200px 350px
+}
+
+/*página: agendaunacita.html*/
+
+.appointment {
+	background-image: url(../img/smile.jpg);
+	height: 550px;
+	background-size: cover;
+	padding-top: 80px;
+	padding-left: 150px;
+}
+
+/*página: acercademi.html*/
+
+.boxImagenPersonal {
+	width: 26vw;
+	height: 50vh;
+	margin: 80px 8px 15px 200px;
+}
+
+.biografia {
+	width: 30vw;
+	height: 40vh;
+	background-color:  lightblue;
+	margin: 140px 300px 50px 80px;
+}
+
+.flexDeMi {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
+}
