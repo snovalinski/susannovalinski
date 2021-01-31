@@ -24,8 +24,6 @@ nav ul{
     list-style-type: none;
 }
 
-
-
 .fotoFondo {
 	background-image: url(../img/whitebackground.jpg);
 	width: 100vw;
@@ -121,7 +119,6 @@ Intro {
 	margin: 0 auto;
 }
 
-/*duda: ¿cómo puedo ubicar estas cajas centradas con respecto a la foto sin tantear la medida?*/
 .boxNews {
 	width: 25vw;
 	height: 20vh; 
@@ -169,9 +166,6 @@ footer {
 	background-size: cover;
 }
 
-/*tengo una duda con respecto a esto: si es un div? porque no se mueve como recuadro?
-no logro que este recuadro amarillo se mueva, al aumentar cualquier medida lo que ocurre 
-es que aumenta la superficie amarilla, tengo un problema de comprensión de este concepto*/
 .infoNoticias {
 	background-color: yellow;
 	text-align: justify;
@@ -187,8 +181,6 @@ es que aumenta la superficie amarilla, tengo un problema de comprensión de este
 	background-size: cover;
 }
 
-/*coloque esto asi porque tengo la duda de como hacer un recuadro que solo abarque la tabla?
-y luego mover solo ese recuadro?*/
 .motivosConsulta {
 	background-color: grey;
 	text-align: justify;
