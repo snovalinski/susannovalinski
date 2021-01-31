@@ -10,6 +10,7 @@ header {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	margin: 60px 0px 20px 0px;
+	background-image: url(../img/logo.png);
 	background-size: cover;
 }
 
@@ -23,29 +24,20 @@ nav ul{
     list-style-type: none;
 }
 
-nav a {
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-size: 18px;
-    color: blue;
-    text-decoration: none;
-}
 
-nav a:hover {
-    color: orange;
-    transition: (1s) ease;
-    font-size: 25px;
-}
 
 .fotoFondo {
 	background-image: url(../img/whitebackground.jpg);
 	width: 100vw;
-	height: 25vh;
-	margin: 5px 5px 5px 5px;}
+	height: 30vh;
+	margin: 5px 5px 5px 5px;
+	background-size: cover;
+}
 
 .boxLogo {
 	width: 25vw;
 	height: 13vh;
-	margin: 30px 8px 15px 160px;
+	margin: 60px 8px 15px 160px;
 }
 
 /*intro*/
@@ -91,17 +83,17 @@ Intro {
 
 #linkNews {
 	grid-area: linkNews;
-	/*border: solid 4px red;*/
+	border: solid 4px red;
 }
 
 #asideNews {
 	grid-area: asideNews;
-	/*border: solid 4px red;*/
+	border: solid 4px red;
 }
 
 #asideComments {
 	grid-area: asideComments;
-	/*border: solid 4px green;*/
+	border: solid 4px green;
 }
 
 .boxFotoNews {
@@ -109,11 +101,6 @@ Intro {
 	height: 31vh; 
 	/*border: solid; color: blue;*/
 	margin: 40px 0px 40px 100px; 
-}
-
-.boxFotoNews:hover {
-	width: 25vw;
-	height: 38vh; 
 }
 
 .boxLinkNews {
@@ -138,7 +125,7 @@ Intro {
 .boxNews {
 	width: 25vw;
 	height: 20vh; 
-	/*border: solid; color: black;*/
+	border: solid; color: blue;
 	margin: 40px 0px 40px 100px;
 	padding-top: 50px
 }
@@ -155,7 +142,8 @@ footer {
 }
 
 .boxNavFooter {
-	margin: 10px 0px 50px 50px;
+	margin: 50px 0px 50px 50px;
+	justify-content: space-between;
 }
 
 .LogoFooter {
@@ -164,10 +152,9 @@ footer {
 	margin: 40px 8px 15px 80px;
 }
 
-/*duda: ¿cómo logro hacer que esto me quede dentro del área de la página?*/
 .boxNetworks {
-	background-color: grey;
-	width: 25vw;
+	/*background-color: grey;*/
+	width: 15vw;
 	height: 13vh;
 	margin: 40px 30px 15px 0px;
 }
