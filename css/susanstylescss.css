@@ -58,8 +58,7 @@ Intro {
   grid-template-columns: 0.75fr 1.5fr 0.75fr;
   grid-template-rows: 1fr 1fr;
   /*background-color: lightblue;*/
-  grid-template-areas: "fotoNews linkNews asideNews"
- "fotoNews linkNews asideComments"; }
+  grid-template-areas: "fotoNews linkNews asideNews" "fotoNews linkNews asideComments"; }
 
 #linkNews {
   grid-area: linkNews; }
