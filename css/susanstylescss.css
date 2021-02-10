@@ -8,56 +8,66 @@ header {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  margin: 60px 0px 20px 0px;
-  background-image: url(../img/logo.png);
-  background-size: cover; }
-  header nav.header__nav ul {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    width: 40vw;
-    height: 8vh;
-    margin: 60px 100px 50px 0px;
-    list-style-type: none; }
+  margin: 60px 0px 30px 0px; }
+
+nav {
+  margin: auto;
+  margin: 100px 200px 50px 0px; }
+
+nav ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 40vw;
+  height: 8vh;
+  list-style-type: none; }
+
+header.header__fotoFondo nav div.container-fluid ul.dropdown-menu li a {
+  color: blue; }
 
 .header__fotoFondo {
   background-image: url(../img/whitebackground.jpg);
   width: 100vw;
   height: 30vh;
+  margin: auto;
   margin: 5px 5px 5px 5px;
   background-size: cover; }
 
 .header__logo {
   width: 25vw;
   height: 13vh;
+  margin: auto;
   margin: 60px 8px 15px 160px; }
 
 /*intro*/
 Intro {
-  /*background-color: magenta;*/
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  height: 500px; }
+  height: 500px;
+  background-color: lightblue; }
 
 .intro__fotoPersonal {
   width: 26vw;
   height: 50vh;
+  margin: auto;
   margin: 80px 8px 15px 200px; }
-  .intro__fotoPersonal .intro__mision {
-    width: 26vw;
-    height: 30vh;
-    background-color: lightblue;
-    margin: 140px 300px 50px 80px; }
+
+.intro__mision {
+  width: 26vw;
+  height: 30vh;
+  margin: auto;
+  margin: 140px 300px 50px 80px; }
+
+Intro div button.btn a {
+  color: white; }
 
 /*section*/
 .section__gridNoticias {
   display: grid;
-  /*border: solid 4px purple ;*/
   grid-template-columns: 0.75fr 1.5fr 0.75fr;
   grid-template-rows: 1fr 1fr;
-  /*background-color: lightblue;*/
   grid-template-areas: "fotoNews linkNews asideNews" "fotoNews linkNews asideComments"; }
 
 #linkNews {
@@ -75,7 +85,7 @@ Intro {
 .section__fotoNews {
   width: 20vw;
   height: 31vh;
-  /*border: solid; color: blue;*/
+  margin: auto;
   margin: 40px 0px 40px 100px; }
 
 .section__BoxNews {
@@ -86,94 +96,120 @@ Intro {
 .section__LinkNews {
   width: 25vw;
   height: 20vh;
-  margin: 60px 0px 150px 50px;
-  padding-top: 50px h5;
-    padding-top-color: blue; }
+  margin: auto;
+  margin: 30px 0px 150px 50px;
+  padding-top: 50px; }
+
+section div.section__BoxNews div.section__LinkNews h5 {
+  color: blue; }
 
 .boxAsideNews {
   text-align: justify;
   width: 50%;
   margin: 0 auto;
-  margin-bottom: 100px; }
+  margin-bottom: 100px;
+  margin-top: 80px;
+  margin-right: 170px; }
 
 .boxAsideComments {
   text-align: justify;
   width: 50%;
-  margin: 0 auto; }
+  margin: 0 auto;
+  margin-right: 170px; }
 
 /*footer*/
 footer {
   background-image: url(../img/whitebackground.jpg);
   display: flex;
-  flex-direction: row;
+  flex-direction: columns;
   flex-wrap: nowrap;
   justify-content: space-between;
   background-size: cover; }
 
-.boxNavFooter {
-  margin: 50px 0px 50px 50px;
-  justify-content: space-between; }
-
 .LogoFooter {
-  width: 25vw;
-  height: 13vh;
+  width: 22vw;
+  height: 10vh;
+  margin: auto;
   margin: 40px 8px 15px 80px; }
 
+footer div.boxNetworks nav ul {
+  list-style: none; }
+
 .boxNetworks {
-  /*background-color: grey;*/
   width: 15vw;
   height: 13vh;
+  margin: auto;
   margin: 40px 30px 15px 0px; }
 
 /*aquí termina la página index.html*/
 /*aquí empieza la página noticias.html*/
-.fondoNoticias {
+.fondo_Noticias {
   background-image: url(../img/technology.jpg);
+  background-size: cover;
   height: 500px;
-  background-size: cover; }
+  position: relative; }
 
-.infoNoticias {
+.info_CuadroNoticias {
+  position: absolute;
   background-color: yellow;
-  text-align: justify;
-  width: 30%;
-  padding: 30px 30px 30px 100px; }
+  width: 670px;
+  height: 220px;
+  padding: 30px 30px 30px 100px;
+  margin: auto;
+  margin-top: 100px;
+  margin-left: 200px; }
 
 /*página: servicios.html*/
 .imagenFondoServicios {
   background-image: url(../img/consultoriovioleta.jpg);
-  height: 550px;
-  background-size: cover; }
+  height: 720px;
+  background-size: cover;
+  position: relative; }
 
 .motivosConsulta {
   background-color: grey;
   text-align: justify;
-  width: 30%;
-  padding: 80px 50px 50px 100px; }
+  width: 500px;
+  padding: 30px 30px 30px 30px;
+  margin-left: 20px; }
+
+.agenda {
+  margin: auto;
+  margin-left: 30px;
+  margin-top: 30px; }
 
 .diasConsulta {
-  margin: 0px 50px 50px 50px;
-  padding: 0px 50px 200px 350px; }
+  background-color: magenta;
+  margin: auto;
+  width: 800px;
+  height: 450px;
+  margin: 0px 50px 50px 100px;
+  padding: 0px 50px 200px 350px;
+  position: absolute; }
 
 /*página: agendaunacita.html*/
 .appointment {
   background-image: url(../img/smile.jpg);
-  height: 550px;
+  height: 780px;
   background-size: cover;
-  padding-top: 80px;
-  padding-left: 150px; }
+  padding-top: 100px;
+  padding-left: 180px; }
 
 /*página: acercademi.html*/
 .boxImagenPersonal {
   width: 26vw;
   height: 50vh;
+  margin: auto;
   margin: 80px 8px 15px 200px; }
 
 .biografia {
   width: 30vw;
   height: 40vh;
-  margin: 140px 300px 50px 80px; }
+  margin: auto;
+  margin: 120px 300px 50px 80px; }
 
 .flexDeMi {
+  height: 500px;
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
