@@ -173,18 +173,13 @@ footer div.boxNetworks nav ul {
   padding: 30px 30px 30px 30px;
   margin-left: 20px; }
 
-.agenda {
-  margin: auto;
-  margin-left: 30px;
-  margin-top: 30px; }
-
 .diasConsulta {
   background-color: magenta;
   margin: auto;
-  width: 800px;
-  height: 450px;
-  margin: 0px 50px 50px 100px;
-  padding: 0px 50px 200px 350px;
+  width: 920px;
+  height: 205px;
+  margin: 270px 0px 50px 0px;
+  padding: 0px 30px 200px 30px;
   position: absolute; }
 
 /*página: agendaunacita.html*/
