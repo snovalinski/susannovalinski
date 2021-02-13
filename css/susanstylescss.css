@@ -7,12 +7,11 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  margin: 60px 0px 30px 0px; }
+  justify-content: space-between; }
 
 nav {
   margin: auto;
-  margin: 100px 200px 50px 0px; }
+  margin: 50px 200px 20px 0px; }
 
 nav ul {
   display: flex;
@@ -25,19 +24,11 @@ nav ul {
 header.header__fotoFondo nav div.container-fluid ul.dropdown-menu li a {
   color: blue; }
 
-.header__fotoFondo {
-  background-image: url(../img/whitebackground.jpg);
-  width: 100vw;
-  height: 30vh;
-  margin: auto;
-  margin: 5px 5px 5px 5px;
-  background-size: cover; }
-
 .header__logo {
   width: 25vw;
   height: 13vh;
   margin: auto;
-  margin: 60px 8px 15px 160px; }
+  margin: 40px 8px 30px 160px; }
 
 /*intro*/
 Intro {
@@ -45,10 +36,9 @@ Intro {
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-between;
-  height: 500px;
-  background-color: lightblue; }
+  height: 500px; }
 
-.intro__fotoPersonal {
+intro div img {
   width: 26vw;
   height: 50vh;
   margin: auto;
@@ -58,7 +48,7 @@ Intro {
   width: 26vw;
   height: 30vh;
   margin: auto;
-  margin: 140px 300px 50px 80px; }
+  margin: 110px 300px 50px 80px; }
 
 Intro div button.btn a {
   color: white; }
@@ -119,18 +109,11 @@ section div.section__BoxNews div.section__LinkNews h5 {
 
 /*footer*/
 footer {
-  background-image: url(../img/whitebackground.jpg);
   display: flex;
   flex-direction: columns;
   flex-wrap: nowrap;
   justify-content: space-between;
   background-size: cover; }
-
-.LogoFooter {
-  width: 22vw;
-  height: 10vh;
-  margin: auto;
-  margin: 40px 8px 15px 80px; }
 
 footer div.boxNetworks nav ul {
   list-style: none; }

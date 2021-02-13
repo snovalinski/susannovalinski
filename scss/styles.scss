@@ -10,12 +10,12 @@ header {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	margin: 60px 0px 30px 0px;
+	// margin: 60px 0px 30px 0px;
 }
 
 nav {
 	margin: auto;
-	margin: 100px 200px 50px 0px
+	margin: 50px 200px 20px 0px
 }
 	
 	nav ul{ 
@@ -43,20 +43,19 @@ header.header__fotoFondo{
 	}
 }
 	
-.header__fotoFondo {
-	background-image: url(../img/whitebackground.jpg);
-	width: 100vw;
-	height: 30vh;
-	margin: auto;
-	margin: 5px 5px 5px 5px;
-	background-size: cover;
-}
+// .header__fotoFondo {
+// 	width: 100vw;
+// 	height: 30vh;
+// 	margin: auto;
+// 	margin: 5px 5px 5px 5px;
+// 	background-size: cover;
+// }
 
 .header__logo {
 	width: 25vw;
 	height: 13vh;
 	margin: auto;
-	margin: 60px 8px 15px 160px;
+	margin: 40px 8px 30px 160px;
 }
 
 // aquí termina header
@@ -69,19 +68,32 @@ Intro {
 	flex-wrap: nowrap;
 	justify-content: space-between;
 	height: 500px;
-	background-color: lightblue;  }
+}
 
-.intro__fotoPersonal {
+intro {
+	div {
+		img {
 	width: 26vw;
 	height: 50vh;
 	margin: auto;
-	margin: 80px 8px 15px 200px;}
+	margin: 80px 8px 15px 200px;
+
+		}
+	}
+}
+
+
+// .intro__fotoPersonal {
+// 	width: 26vw;
+// 	height: 50vh;
+// 	margin: auto;
+// 	margin: 80px 8px 15px 200px;}
 
 .intro__mision {
 	width: 26vw;
 	height: 30vh;
 	margin: auto;
-	margin: 140px 300px 50px 80px;}
+	margin: 110px 300px 50px 80px;}
 
 Intro {
 	div {
@@ -168,7 +180,7 @@ section {
 /*footer*/
 
 footer {
-	background-image: url(../img/whitebackground.jpg);
+	// background-image: url(../img/whitebackground.jpg);
 	display: flex;
 	flex-direction: columns;
 	flex-wrap: nowrap;
@@ -185,12 +197,12 @@ footer {
 // // 	// justify-content: space-between;
 // }
 
-.LogoFooter {
-	width: 22vw;
-	height: 10vh;
-	margin: auto;
-	margin: 40px 8px 15px 80px;
-}
+// .LogoFooter {
+// 	width: 22vw;
+// 	height: 10vh;
+// 	margin: auto;
+// 	margin: 40px 8px 15px 80px;
+// }
 
 footer {
 	div.boxNetworks {
