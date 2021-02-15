@@ -72,15 +72,13 @@ footer div.main_contentFooter {
     flex-direction: row;
     flex-wrap: nowrap;
     justify-content: space-around;
-    align-items: space-around;
-    width: 12vw;
-    height: 8vh; }
-  footer div.main_contentFooter div button .btn a {
-    color: white; }
-
-footer div button.btn a {
-  color: white;
-  text-decoration: none; }
+    align-items: space-around; }
+    footer div.main_contentFooter div.social_icons a img {
+      width: 60px;
+      height: 50px; }
+  footer div.main_contentFooter div button.btn a {
+    color: white;
+    text-decoration: none; }
 
 /*aquí termina la página index.html*/
 /*aquí empieza la página noticias.html*/
