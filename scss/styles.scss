@@ -10,12 +10,11 @@ header {
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	// margin: 60px 0px 30px 0px;
 }
 
 nav {
 	margin: auto;
-	margin: 50px 200px 20px 0px
+	margin: 50px 180px 20px 0px
 }
 	
 	nav ul{ 
@@ -33,8 +32,7 @@ header.header__fotoFondo{
 			ul.dropdown-menu {
 				li {
 					a{
-					color: blue;	
-					}
+					color: blue;}
 					
 				}
 			}
@@ -42,20 +40,14 @@ header.header__fotoFondo{
 
 	}
 }
-	
-// .header__fotoFondo {
-// 	width: 100vw;
-// 	height: 30vh;
-// 	margin: auto;
-// 	margin: 5px 5px 5px 5px;
-// 	background-size: cover;
-// }
 
+// tengo que ver si este color de dropdown esta bien
+	
 .header__logo {
 	width: 25vw;
 	height: 13vh;
 	margin: auto;
-	margin: 40px 8px 30px 160px;
+	margin: 40px 8px 30px 180px;
 }
 
 // aquí termina header
@@ -77,17 +69,9 @@ intro {
 	height: 50vh;
 	margin: auto;
 	margin: 80px 8px 15px 200px;
-
 		}
 	}
 }
-
-
-// .intro__fotoPersonal {
-// 	width: 26vw;
-// 	height: 50vh;
-// 	margin: auto;
-// 	margin: 80px 8px 15px 200px;}
 
 .intro__mision {
 	width: 26vw;
@@ -98,153 +82,71 @@ intro {
 Intro {
 	div {
 		button.btn { 
-		a {color: white; }
+		a {color: white;
+			text-decoration: none }
 		}
 	}
 }
-
 
 // aquí termina la intro.
 
-
-/*section*/
-
-.section__gridNoticias {
-	display: grid;
-	grid-template-columns: 0.75fr 1.5fr 0.75fr;
-	grid-template-rows: 1fr 1fr;
-	grid-template-areas: 
-	"fotoNews linkNews asideNews"
-	"fotoNews linkNews asideComments"}
-
-	#linkNews {
-		grid-area: linkNews;
+Container {
+	div.carousel-inner {
+		 height: 450px;
+		}
 	}
 
-	#fotoNews {
-		grid-area: fotoNews;}
+// arreglar que las fotos sean de la altura del carousel
 
-	#asideNews {
-		grid-area: asideNews;
-	  }
-
-	#asideComments {
-		grid-area: asideComments;
-		}
-
-.section__fotoNews {
-	width: 20vw;
-	height: 31vh; 
-	margin: auto;
-	margin: 40px 0px 40px 100px;}
-
-.section__BoxNews {
-	text-align: justify;
-	width: 85%;
-	margin: 0 auto;}
-
-	.section__LinkNews {
-		width: 25vw;
-		height: 20vh; 
-		margin: auto;
-		margin: 30px 0px 150px 50px;
-		padding-top: 50px;
-		}
-
-section {
-	div.section__BoxNews {
-		div.section__LinkNews {
-			h5 {color: blue;}
-								}
-							}
-		}
-
-.boxAsideNews {
-	text-align: justify;
-	width: 50%;
-	margin: 0 auto;
-	margin-bottom: 100px;
-	margin-top: 80px;
-	margin-right: 170px;
-}
-
-.boxAsideComments {
-	text-align: justify;
-	width: 50%;
-	margin: 0 auto;
-	margin-right: 170px;
-}
-
-// aquí termina section
 
 /*footer*/
 
-footer {
-	// background-image: url(../img/whitebackground.jpg);
-	display: flex;
-	flex-direction: columns;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	background-size: cover;
-}
+footer  {	
+	div.main_contentFooter {
+		display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-around;
+	    align-items: space-around;
 
-// .boxNavFooter {
-// 	margin: 50px 0px 200px 40px;
-// // 	// justify-content: space-between;
-// // 	// display: flex;
-// // 	// flex-direction: row;
-// // 	// flex-wrap: nowrap;
-// // 	// justify-content: space-between;
-// }
-
-// .LogoFooter {
-// 	width: 22vw;
-// 	height: 10vh;
-// 	margin: auto;
-// 	margin: 40px 8px 15px 80px;
-// }
-
-footer {
-	div.boxNetworks {
-		nav {
-			ul {
-			list-style: none;	
-			}
-		
-				}
-					}
+	   div.leftBox {
+	  	width: 18vw;
+		height: 13vh;
 		}
 
-.boxNetworks {
-	width: 15vw;
-	height: 13vh;
-	margin: auto;
-	margin: 40px 30px 15px 0px;
+		div.social_icons {
+		display: flex;
+	    flex-direction: row;
+	    flex-wrap: nowrap;
+	    justify-content: space-around;
+	    align-items: space-around;
+		width: 12vw;
+		height: 8vh;
+		}
+		
+		div button .btn  {
+		a {color: white;}
+		}	
+		}
 }
+
+// esto lo coloque porque adentro no me funciona no entiendo por que?
+
+footer {
+	div {
+		button.btn { 
+		a {color: white;
+			text-decoration: none; }
+		}
+	}
+}
+
 
 // aquí termina footer
 
 /*aquí termina la página index.html*/
 
 /*aquí empieza la página noticias.html*/
-
-.fondo_Noticias {
-	background-image: url(../img/technology.jpg);
-	background-size: cover;
-	height: 500px;
-	position: relative;
-}
-
-.info_CuadroNoticias {
-	position: absolute;
-	background-color: yellow;
-	width: 670px;
-	height: 220px;
-	padding: 30px 30px 30px 100px;
-	margin: auto;
-	margin-top: 100px;
-	margin-left: 200px;
-}
 
 /*página: servicios.html*/
 
@@ -289,19 +191,33 @@ footer {
 
 /*página: acercademi.html*/
 
-.boxImagenPersonal {
-	width: 26vw;
-	height: 50vh;
-	margin: auto;
-	margin: 80px 8px 15px 200px;
-}
 
-.biografia{
+.biografia {
 	width: 30vw;
 	height: 40vh;
 	margin: auto;
 	margin: 120px 300px 50px 80px;
 }
+
+section {
+	img {
+		width: 26vw;
+		height: 50vh;
+		margin: auto;
+		margin: 80px 8px 15px 200px;
+		}
+}
+
+section {
+	div {
+		button.btn {
+			a {color: white;
+				text-decoration: none; }
+		}
+	}
+}
+
+
 
 .flexDeMi {
 	height: 500px;

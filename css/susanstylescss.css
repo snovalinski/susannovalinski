@@ -11,7 +11,7 @@ header {
 
 nav {
   margin: auto;
-  margin: 50px 200px 20px 0px; }
+  margin: 50px 180px 20px 0px; }
 
 nav ul {
   display: flex;
@@ -28,7 +28,7 @@ header.header__fotoFondo nav div.container-fluid ul.dropdown-menu li a {
   width: 25vw;
   height: 13vh;
   margin: auto;
-  margin: 40px 8px 30px 160px; }
+  margin: 40px 8px 30px 180px; }
 
 /*intro*/
 Intro {
@@ -51,97 +51,39 @@ intro div img {
   margin: 110px 300px 50px 80px; }
 
 Intro div button.btn a {
-  color: white; }
+  color: white;
+  text-decoration: none; }
 
-/*section*/
-.section__gridNoticias {
-  display: grid;
-  grid-template-columns: 0.75fr 1.5fr 0.75fr;
-  grid-template-rows: 1fr 1fr;
-  grid-template-areas: "fotoNews linkNews asideNews" "fotoNews linkNews asideComments"; }
-
-#linkNews {
-  grid-area: linkNews; }
-
-#fotoNews {
-  grid-area: fotoNews; }
-
-#asideNews {
-  grid-area: asideNews; }
-
-#asideComments {
-  grid-area: asideComments; }
-
-.section__fotoNews {
-  width: 20vw;
-  height: 31vh;
-  margin: auto;
-  margin: 40px 0px 40px 100px; }
-
-.section__BoxNews {
-  text-align: justify;
-  width: 85%;
-  margin: 0 auto; }
-
-.section__LinkNews {
-  width: 25vw;
-  height: 20vh;
-  margin: auto;
-  margin: 30px 0px 150px 50px;
-  padding-top: 50px; }
-
-section div.section__BoxNews div.section__LinkNews h5 {
-  color: blue; }
-
-.boxAsideNews {
-  text-align: justify;
-  width: 50%;
-  margin: 0 auto;
-  margin-bottom: 100px;
-  margin-top: 80px;
-  margin-right: 170px; }
-
-.boxAsideComments {
-  text-align: justify;
-  width: 50%;
-  margin: 0 auto;
-  margin-right: 170px; }
+Container div.carousel-inner {
+  height: 450px; }
 
 /*footer*/
-footer {
+footer div.main_contentFooter {
   display: flex;
-  flex-direction: columns;
+  flex-direction: row;
   flex-wrap: nowrap;
-  justify-content: space-between;
-  background-size: cover; }
+  justify-content: space-around;
+  align-items: space-around; }
+  footer div.main_contentFooter div.leftBox {
+    width: 18vw;
+    height: 13vh; }
+  footer div.main_contentFooter div.social_icons {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    justify-content: space-around;
+    align-items: space-around;
+    width: 12vw;
+    height: 8vh; }
+  footer div.main_contentFooter div button .btn a {
+    color: white; }
 
-footer div.boxNetworks nav ul {
-  list-style: none; }
-
-.boxNetworks {
-  width: 15vw;
-  height: 13vh;
-  margin: auto;
-  margin: 40px 30px 15px 0px; }
+footer div button.btn a {
+  color: white;
+  text-decoration: none; }
 
 /*aquí termina la página index.html*/
 /*aquí empieza la página noticias.html*/
-.fondo_Noticias {
-  background-image: url(../img/technology.jpg);
-  background-size: cover;
-  height: 500px;
-  position: relative; }
-
-.info_CuadroNoticias {
-  position: absolute;
-  background-color: yellow;
-  width: 670px;
-  height: 220px;
-  padding: 30px 30px 30px 100px;
-  margin: auto;
-  margin-top: 100px;
-  margin-left: 200px; }
-
 /*página: servicios.html*/
 .imagenFondoServicios {
   background-image: url(../img/consultoriovioleta.jpg);
@@ -174,17 +116,21 @@ footer div.boxNetworks nav ul {
   padding-left: 180px; }
 
 /*página: acercademi.html*/
-.boxImagenPersonal {
-  width: 26vw;
-  height: 50vh;
-  margin: auto;
-  margin: 80px 8px 15px 200px; }
-
 .biografia {
   width: 30vw;
   height: 40vh;
   margin: auto;
   margin: 120px 300px 50px 80px; }
+
+section img {
+  width: 26vw;
+  height: 50vh;
+  margin: auto;
+  margin: 80px 8px 15px 200px; }
+
+section div button.btn a {
+  color: white;
+  text-decoration: none; }
 
 .flexDeMi {
   height: 500px;
