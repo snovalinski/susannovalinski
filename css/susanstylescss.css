@@ -3,6 +3,9 @@
   margin: 0;
   padding: 0; }
 
+Container div.carousel-inner {
+  height: 450px; }
+
 header {
   display: flex;
   flex-direction: row;
@@ -11,7 +14,7 @@ header {
 
 nav {
   margin: auto;
-  margin: 50px 180px 20px 0px; }
+  margin: 20px 180px 20px 0px; }
 
 nav ul {
   display: flex;
@@ -21,14 +24,14 @@ nav ul {
   height: 8vh;
   list-style-type: none; }
 
-header.header__fotoFondo nav div.container-fluid ul.dropdown-menu li a {
+header nav div.container-fluid ul.dropdown-menu li a {
   color: blue; }
 
 .header__logo {
   width: 25vw;
   height: 13vh;
   margin: auto;
-  margin: 40px 8px 30px 180px; }
+  margin: 10px 8px 30px 180px; }
 
 /*intro*/
 Intro {
@@ -54,16 +57,14 @@ Intro div button.btn a {
   color: white;
   text-decoration: none; }
 
-Container div.carousel-inner {
-  height: 450px; }
-
 /*footer*/
 footer div.main_contentFooter {
   display: flex;
   flex-direction: row;
   flex-wrap: nowrap;
   justify-content: space-around;
-  align-items: space-around; }
+  align-items: space-around;
+  padding-top: 40px; }
   footer div.main_contentFooter div.leftBox {
     width: 18vw;
     height: 13vh; }
@@ -80,40 +81,24 @@ footer div.main_contentFooter {
     color: white;
     text-decoration: none; }
 
-/*aquí termina la página index.html*/
-/*aquí empieza la página noticias.html*/
-/*página: servicios.html*/
-.imagenFondoServicios {
-  background-image: url(../img/consultoriovioleta.jpg);
-  height: 720px;
+/*aquí empieza la página2: noticias.html*/
+section div.foto_Encabezado {
+  background-image: url(../img/banner2.jpg);
   background-size: cover;
-  position: relative; }
+  width: 100vw;
+  height: 30vh; }
+  section div.foto_Encabezado div.cuadro_descriptivo {
+    margin-left: 150px;
+    padding-top: 50px; }
 
-.motivosConsulta {
-  background-color: grey;
-  text-align: justify;
-  width: 500px;
-  padding: 30px 30px 30px 30px;
-  margin-left: 20px; }
+/*página4: acercademi.html*/
+.flexDeMi {
+  height: 500px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; }
 
-.diasConsulta {
-  background-color: magenta;
-  margin: auto;
-  width: 920px;
-  height: 205px;
-  margin: 270px 0px 50px 0px;
-  padding: 0px 30px 200px 30px;
-  position: absolute; }
-
-/*página: agendaunacita.html*/
-.appointment {
-  background-image: url(../img/smile.jpg);
-  height: 780px;
-  background-size: cover;
-  padding-top: 100px;
-  padding-left: 180px; }
-
-/*página: acercademi.html*/
 .biografia {
   width: 30vw;
   height: 40vh;
@@ -130,9 +115,12 @@ section div button.btn a {
   color: white;
   text-decoration: none; }
 
-.flexDeMi {
-  height: 500px;
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between; }
+/*página5: servicios.html*/
+div.formulario {
+  background-image: url(../img/consultorio.jpg);
+  background-size: cover;
+  height: 900px; }
+
+div.col-6 {
+  margin-top: 100px;
+  margin-left: 160px; }

@@ -10,8 +10,7 @@
 	<link rel="stylesheet" href="css/susanstylescss.css">
 </head>
 <body>
-
-	<Header class="header__fotoFondo">
+	<Header>
 		<img src="img/logo.png" alt="logo empresa" class="header__logo">
 
 		<nav class="navbar navbar-expand-lg navbar-light">
@@ -39,6 +38,7 @@
             				Servicios
           					</a>
              					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+             						<li><a class="dropdown-item" href="servicios.html">Consultar o Agendarme</a></a></li>
             						<li><a class="dropdown-item" href="servicios.html">Odontología Preventiva</a></a></li>
             						<li><a class="dropdown-item" href="servicios.html">Terapia Neural</a></li>
             						<li><a class="dropdown-item" href="servicios.html">Implantes</a></li>
@@ -51,31 +51,51 @@
 		</nav>
 	</Header>
 
-	<Section class="appointment">
-		<h1>Agenda una cita</h1>
-			<form action="#" method="post">
-				<label for="nombre">Nombre: </label>
-				<input type="text" name="nombre"><br><br>
-				<label for="apellido">Apellido: </label>
-				<input type="text" name="apellido"><br><br>
-				<label for="email">Email: </label>
-				<input type="text" name="email"><br><br>
+	<section>
+		<div class="foto_Encabezado">
+      		<div class= "cuadro_descriptivo">
+        		<h3 class="display-4">Contáctame</h3>
+        	</div>
+    	</div>
+    </section>
 
-				<select name="" id="">		
-					<option value="Control">Consulta control</option>
-					<option value="Urgencia">Urgencia</option>
-					<option value="Saneamiento">Carnet de salud</option><br><br>
-				
-				</select>
+	<div class="formulario">
+		<div class="row">
+			<div class="col-6">
+				<p>Te invito a escribirme, te responderé lo antes posible.</p>
+				<hr>
+				<p class="text-danger small">*Recuerda llenar todos los campos.</p>
 
-				<label for="hazme una consulta">Hazme una consulta: </label>
-				<textarea name="Hazme una consulta" id="" cols="30" rows="10"></textarea><br><br>
-				<label for="si">Desea recibir el newsletter</label>
-				<input type="checkbox" name="si" value="1"><br><br>
-				<input type="submit" name="enviar">
-				<input type="reset" name="reset" value="Borrar datos">
-			</form>
-	</Section>
+				<form>
+				<div class="mb-3">
+  					<label for="exampleFormControlTextarea1" class="form-label">Nombre y apellido</label>
+  					<textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Escribe aquí" rows="1"></textarea>
+  					<div id="emailHelp" class="form-text">No compartiremos tu información con otras personas.</div>
+				</div>
+				<div class="mb-3">
+  					<label for="exampleFormControlInput1" class="form-label">Correo electrónico</label>
+ 				 	<input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Escribe aquí">
+  					<div id="emailHelp" class="form-text">No compartiremos tu información con otras personas.</div>
+				</div>
+				<div class="mb-3">
+					<label for="exampleFormControlInput1" class="form-label">Despliega y elige una de las opciones</label>
+					<select class="form-select" aria-label="Default select example">
+  						<option value="1">Hacer una pregunta</option>
+ 						<option value="2">Odontología preventiva</option>
+  						<option value="3">Terapia neural</option>
+  						<option value="3">Implantes</option>
+  						<option value="3">Reparación de prótesis</option>
+					</select>
+				</div>
+				<div class="mb-3">
+  					<label for="exampleFormControlTextarea1" class="form-label">Escribe aquí tu consulta, te responderé lo antes posible.</label>
+  					<textarea class="form-control" id="exampleFormControlTextarea1" rows="5"></textarea>
+  				</div>
+  					<button type="submit" class="btn btn-primary">Enviar</button>
+				</div>
+				</form>
+		</div>
+	</div>
 
 	<footer>
 		<div class= "main_contentFooter">
@@ -83,9 +103,9 @@
 				<p>Construyendo la confianza para que asistas a tu próxima consulta</p>
 			</div>
 			<div class= "social_icons">
-				<a href="https://www.facebook.com/Snovalinski-1775746269141223"> <img src="img/faceb.png" alt="facebook"></a>
-				<a href="https://www.instagram.com/snovalinski/"> <img src="img/insta.png" alt="instagram"></a>
-				<a href="https://www.linkedin.com/in/susan-novalinski-hung-5428bbb7/"> <img src="img/lin2.png" alt="linkedin"></a>
+				<a href="https://www.facebook.com/Snovalinski-1775746269141223"> <img src="img/fb3.jpg" alt="facebook" class= "rounded"></a>
+				<a href="https://www.instagram.com/snovalinski/"> <img src="img/instagram.png" alt="instagram" class= "rounded"></a>
+				<a href="https://www.linkedin.com/in/susan-novalinski-hung-5428bbb7/"> <img src="img/linkedin1.png" alt="linkedin" class= "rounded"></a>
 			</div>
 
 			<div class="button">
