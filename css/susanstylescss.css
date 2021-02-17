@@ -3,9 +3,6 @@
   margin: 0;
   padding: 0; }
 
-Container div.carousel-inner {
-  height: 450px; }
-
 header {
   display: flex;
   flex-direction: row;
@@ -14,7 +11,7 @@ header {
 
 nav {
   margin: auto;
-  margin: 20px 180px 20px 0px; }
+  margin: 30px 180px 20px 0px; }
 
 nav ul {
   display: flex;
@@ -31,31 +28,7 @@ header nav div.container-fluid ul.dropdown-menu li a {
   width: 25vw;
   height: 13vh;
   margin: auto;
-  margin: 10px 8px 30px 180px; }
-
-/*intro*/
-Intro {
-  display: flex;
-  flex-direction: row;
-  flex-wrap: nowrap;
-  justify-content: space-between;
-  height: 500px; }
-
-intro div img {
-  width: 26vw;
-  height: 50vh;
-  margin: auto;
-  margin: 80px 8px 15px 200px; }
-
-.intro__mision {
-  width: 26vw;
-  height: 30vh;
-  margin: auto;
-  margin: 110px 300px 50px 80px; }
-
-Intro div button.btn a {
-  color: white;
-  text-decoration: none; }
+  margin: 20px 8px 30px 180px; }
 
 /*footer*/
 footer div.main_contentFooter {
@@ -66,7 +39,7 @@ footer div.main_contentFooter {
   align-items: space-around;
   padding-top: 40px; }
   footer div.main_contentFooter div.leftBox {
-    width: 18vw;
+    width: 22vw;
     height: 13vh; }
   footer div.main_contentFooter div.social_icons {
     display: flex;
@@ -81,7 +54,6 @@ footer div.main_contentFooter {
     color: white;
     text-decoration: none; }
 
-/*aquí empieza la página2: noticias.html*/
 section div.foto_Encabezado {
   background-image: url(../img/banner2.jpg);
   background-size: cover;
@@ -91,7 +63,50 @@ section div.foto_Encabezado {
     margin-left: 150px;
     padding-top: 50px; }
 
-/*página4: acercademi.html*/
+.carousel-item {
+  height: 530px;
+  width: 950px;
+  margin: auto;
+  margin-left: 200px; }
+
+Intro {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  height: 500px; }
+
+intro div img {
+  width: 26vw;
+  height: 50vh;
+  margin: auto;
+  margin: 80px 8px 15px 200px; }
+
+.intro__mision {
+  width: 28vw;
+  height: 15vh;
+  margin: auto;
+  margin: 110px 300px 50px 80px; }
+  .intro__mision h1.display-4 {
+    text-align: center; }
+    .intro__mision h1.display-4 p.lead {
+      text-align: center; }
+
+intro div button.btn {
+  margin-left: 120px; }
+  intro div button.btn a {
+    color: white;
+    text-decoration: none; }
+
+main {
+  background-image: url(../img/consultorio.jpg);
+  background-size: cover;
+  height: 1000px; }
+
+main div.accordion_General {
+  width: 700px;
+  margin-left: 140px; }
+
 .flexDeMi {
   height: 500px;
   display: flex;
@@ -103,7 +118,7 @@ section div.foto_Encabezado {
   width: 30vw;
   height: 40vh;
   margin: auto;
-  margin: 120px 300px 50px 80px; }
+  margin: 80px 300px 50px 80px; }
 
 section img {
   width: 26vw;
@@ -111,16 +126,24 @@ section img {
   margin: auto;
   margin: 80px 8px 15px 200px; }
 
-section div button.btn a {
-  color: white;
-  text-decoration: none; }
+section div.biografia h5.display-6 {
+  text-align: center; }
+
+section div.biografia p.lead {
+  text-align: center; }
+
+section div.biografia button.btn {
+  margin-left: 120px; }
+  section div.biografia button.btn a {
+    color: white;
+    text-decoration: none; }
 
 /*página5: servicios.html*/
 div.formulario {
-  background-image: url(../img/consultorio.jpg);
+  background-image: url(../img/appointment.jpg);
   background-size: cover;
-  height: 900px; }
+  height: 800px; }
 
 div.col-6 {
-  margin-top: 100px;
-  margin-left: 160px; }
+  margin-top: 60px;
+  margin-left: 150px; }
