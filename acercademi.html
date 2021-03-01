@@ -10,79 +10,78 @@
 	<<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
 	<link rel="stylesheet" href="css/susanstylescss.css">
 </head>
+
 <body>
-	<Header class="fotoFondo">
-		<img src="img/logo.png" alt="logo" class="boxLogo">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
+	<Header>
+		<img src="img/logo.png" alt="logo empresa" class="header__logo">
+
+		<nav class="navbar navbar-expand-lg navbar-blue">
   			<div class="container-fluid">
-   				<a class="navbar-brand" href="#"></a>
-    			<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
-      			<span class="navbar-toggler-icon"></span>
-    			</button>
+    			<a class="navbar-brand" href="#"></a>
+    				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+      				<span class="navbar-toggler-icon"></span>
+   					</button>
     			<div class="collapse navbar-collapse" id="navbarNavDropdown">
       				<ul class="navbar-nav">
         				<li class="nav-item">
-          				<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
+          					<a class="nav-link active" aria-current="page" href="index.html">Inicio</a>
         				</li>
         				<li class="nav-item">
-          				<a class="nav-link" href="noticias.html">Noticias</a>
+          					<a class="nav-link" href="noticias.html">Noticias</a>
         				</li>
         				<li class="nav-item">
-          				<a class="nav-link" href="servicios.html">Servicios</a>
+         					<a class="nav-link" href="faq.html">FAQ</a>
         				</li>
         				<li class="nav-item">
-         				 <a class="nav-link" href="acercademi.html">Acerca de mi</a>
+          					<a class="nav-link" href="acercademi.html">Acerca de mi</a>
         				</li>
         				<li class="nav-item dropdown">
-        				 <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-            				Agenda una cita
-          				 </a>
-         			 <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-            			<li><a class="dropdown-item" href="agendaunacita.html">Cita control</a></li>
-            			<li><a class="dropdown-item" href="agendaunacita.html">Cita de urgencia</a></li>
-            			<li><a class="dropdown-item" href="agendaunacita.html">Reparación de prótesis</a></li>
-          			</ul>
+          					<a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+            				Contáctame
+          					</a>
+             					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <li><a class="dropdown-item" href="servicios.html">Consultar o Agendarme</a></a></li>
+                        <li><hr class="dropdown-divider"></li>
+            						<li><a class="dropdown-item" href="#">Odontología Preventiva</a></a></li>
+            						<li><a class="dropdown-item" href="#">Terapia Neural</a></li>
+            						<li><a class="dropdown-item" href="#">Implantes</a></li>
+            						<li><a class="dropdown-item" href="#">Reparación de prótesis</a></li>
+          						</ul>
+          						</ul>
         				</li>
       				</ul>
     			</div>
   			</div>
-		
+		</nav>
 	</Header>
 
-	<section class="flexDeMi">
-		<img src="img/diagnostico.jpg" alt="imagen personal" class="boxImagenPersonal">
+	<Section class="flexDeMi">
+			<img src="img/diagnostico.jpg" alt="imagen personal" class="rounded-circle">
 
-		<div class="biografia">
-			<h1>Esta soy yo: biografía con mi trayectoria profesional</h1>
-
-			<p>Lorem ipsum dolor sit, amet, consectetur adipisicing elit. Asperiores 	fuga quaerat itaque excepturi, hic id odio, labore perspiciatis deserunt! Unde autem 	consequatur modi doloribus est veniam dolorum deserunt distinctio Lorem ipsum dolor sit amet consectetur adipisicing, elit. Dolore rerum rem nobis, accusamus et deserunt tempore provident quis dicta aliquid quia animi maxime voluptates hic, a nihil, non reprehenderit, natus.</p>
-		</div>
+			<div class="biografia">
+				<h5 class="soy_yo display-6">Esta soy yo</h5>
+				<p class="lead">Soy <strong>odontologa </strong>de profesión, comencé mis estudios en el año 2007 desde entonces me he dado cuenta como mis pacientes valoran mantener una <strong>comunicación</strong> clara acerca de sus diagnósticos y procedimientos. Esto me ha llevado a apasionarme por la comunicación y buscar maneras diversas para transmitir ideas. Adaptándolas a los cambios actuales donde lo digital es una ventana rica en contenido para transmitir la <strong>importancia de la salud bucal</strong>.</p>
+				<button type="button" class="btn btn-primary"><a href="servicios.html">Contáctame</a></button>
+			</div>
 	</section>
 
-	<footer class="fotoFondo">
-		<div class="boxLogoFooter">
-			<img src="img/logo.png" alt="logo" class="LogoFooter">
-		</div>
+	<footer>
+		<div class= "main_contentFooter">
+			<div class= "leftBox">
+				<p class="lead">Construyendo la confianza para que asistas a tu próxima consulta</p>
+			</div>
+			<div class= "social_icons">
+				<a href="https://www.facebook.com/Snovalinski-1775746269141223"> <img src="img/faceit.png" alt="facebook" class= "rounded"></a>
+				<a href="https://www.instagram.com/snovalinski/"> <img src="img/instagram.png" alt="instagram" class= "rounded"></a>
+				<a href="https://www.linkedin.com/in/susan-novalinski-hung-5428bbb7/"> <img src="img/linkedin1.png" alt="linkedin" class= "rounded"></a>
+			</div>
 
-		<div class="boxNavFooter">
-			<nav>
-				<ul>
-					<li><a href="index.html">Inicio</a></li>
-					<li><a href="servicios.html">Servicios</a></li>
-					<li><a href="noticias.html">Noticias</a></li>
-					<li><a href="agendaunacita.html">Agenda una cita</a></li>
-					<li><a href="acercademi.html">Acerca de mi</a></li>
-				</ul>	               
-	   		</nav>
-		</div>
-
-		<div class="boxNetworks">
-			<h3>Sígueme</h3>
-			<p>Instagram</p>
-			<p>Facebook</p>
-			<p>Twitter</p>
-		</div>
+			<div class="button">
+		    	<button type="button" class="btn contactame btn-primary"><a href="index.html">Volver al inicio</a></button>
+ 			</div>		
+ 		</div>	
 	</footer>
+
 	<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-ygbV9kiqUc6oa4msXn9868pTtWMgiQaeYH7/t7LECLbyPA2x65Kgf80OJFdroafW" crossorigin="anonymous"></script>
 </body>
 </html>
