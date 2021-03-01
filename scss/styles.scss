@@ -3,29 +3,27 @@
 	padding: 0;
 }
 
-// header
-
 header {
 	display: flex; 
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
+	height: 15vh;
+	justify-content: space-around;
+		align-items: space-around;
+}
+
+.header__logo {
+	width: 25vw;
+	height: 13vh;
+	margin-left: 14vw;	
+	margin-top: 2vh;
 }
 
 nav {
 	margin: auto;
-	margin: 30px 180px 20px 0px;
 }
 	
-	nav ul{ 
-	display: flex;
-	flex-direction: row;
-    justify-content: space-around;
-    width: 40vw;
-    height: 8vh;
-    list-style-type: none;
-}
-
 header {
 	nav {
 		div.container-fluid {
@@ -33,32 +31,28 @@ header {
 				li {
 					a{
 					color: blue;}
-					
-				}
+					}
 			}
 		}
 
 	}
 }
 
-.header__logo {
-	width: 25vw;
-	height: 13vh;
-	margin: auto;
-	margin: 20px 8px 30px 180px;
+	nav a:hover {
+		color: #000;
 }
 
 /*footer*/
 
-
-footer  {	
+footer {
 	div.main_contentFooter {
 		display: flex;
 	    flex-direction: row;
 	    flex-wrap: nowrap;
 	    justify-content: space-around;
 	    align-items: space-around;
-	    padding-top: 40px;
+	    padding-top: 10vh;
+
 
 	   div.leftBox {
 	  	width: 22vw;
@@ -74,8 +68,8 @@ footer  {
 
 	    a {
 	    	img{
-		width: 60px;
-		height: 50px;}
+		width: 4vw;
+		height: 7vh;}
 				}
 			}
 		
@@ -86,103 +80,140 @@ footer  {
 		}
 			}
 
-// banner
+		footer {
+			img:hover {
+		background-color: #000}
+				}
 
-section {
-	div.foto_Encabezado {
-		background-image: url(../img/banner2.jpg);
-		background-size: cover;
-		width: 100vw;
-  		height: 30vh;
+// // pagina1 index.html
 
-  		div.cuadro_descriptivo{
-  			margin-left: 150px;
-  			padding-top: 50px;
-  			 		}
-  			 			}
-  		}
-
-
-// pagina1 index.html
-
-.carousel-item {
-	height: 530px;
-	width: 950px;
-	margin: auto;
-	margin-left: 200px;
-}
-
-Intro {
+section.index {
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
 	justify-content: space-between;
-	height: 500px;
-}
+	height: 70vh;
 
-intro {
-	div {
-		img {
-	width: 26vw;
-	height: 50vh;
-	margin: auto;
-	margin: 80px 8px 15px 200px;
-	}
+	img{
+		width: 26vw;
+		height: 50vh;
+		margin: auto;
+		margin: 10vh 0vw 0vh 14vw;
 	}
 }
 
-.intro__mision {
-	width: 28vw;
-	height: 15vh;
+.saludos {
+	width: 50vw;
+	height: 40vh;
 	margin: auto;
-	margin: 110px 300px 50px 80px;
-
-	h1.display-4 {
-		text-align: center;
-
-	p.lead {
-		text-align: center;
-	}	
-		}
+	margin: 80px 300px 50px 100px;
+	text-align: center;
 }
 
-intro{
-	div{
-		button.btn {
-			margin-left: 120px;
-
-			a {color: white;
-			text-decoration: none; }
-					}
-		}
+	h1.bienvenido {
+		text-align: center;
+	}
+	
+#servicios {
+	// border: 2px solid #000;
+	width: 100vw;
+	height: 75vh;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: nowrap;
+	justify-content: space-between;
 }
 
-// /*aquí empieza la página2: noticias.html*/
+#detalles {
+	width: 25vw;
+	height:70vh;
+	// border: 1px solid #000;
+	// margin-left: 5vw;
+	// margin-right: 5vw;
+	// padding-left: 5vw;
+	// padding-right: 5vw;
+	text-align: center;
+}
 
+.detalles1 {
+	border: 1px solid #000;
+ 	margin-left: 12vw;
+ 	padding-right: 1vw;
+ 	padding-left: 1vw;
+}
 
+.detalles2 {
+	border: 1px solid #000;
+	padding-right: 1vw;
+ 	padding-left: 1vw;
+ 	transition:5s;
+ 	width: 10vw;
 
-// aquí empieza la página3: faq.html 
+}
+
+.detalles3 {
+	border: 1px solid #000;
+	margin-right: 10vw;
+	padding-right: 1vw;
+ 	padding-left: 1vw;
+}
+	
+// // /*aquí empieza la página2: noticias.html*/
+
+.news {
+	// border: 1px solid #000;
+	padding-top: 9vh;
+	margin-left: 11vw;
+	margin-right: 11vw;
+}
+
+.noticia {
+	padding-bottom: 5vh;
+}
+
+// // banner es igual para las páginas noticias/faq y contáctame
+
+section.banner {
+	width: 100vw;
+	height: 30vh;
+	background-image: url(../img/banner2.jpg);
+	background-size: cover;
+	}
+
+  		div.cuadro_descriptivo {
+ 		padding-top: 8vh;
+		width: 100vw;
+  		height: 30vh;
+
+  		h3 {
+  			margin-left: 11vw;
+  			}
+  			}
+
+  		#banner {
+  			margin-left: 11vw;
+  		  	}
+
+// // aquí empieza la página3: faq.html 
 
 main {
 	background-image: url(../img/consultorio.jpg);
 	background-size: cover;
- 	height: 1000px;
+ 	height: 800px;
 }
 
 main {
 	div.accordion_General {	
-			width: 700px;
-			margin-left: 140px;
+			width: 70vw;
+			padding-top: 5vh;
+			margin-left: 11vw;
 			}
 }
 
-
-
-
-// /*página4: acercademi.html*/
+// // /*página4: acercademi.html*/
 
 .flexDeMi {
-	height: 500px;
+	height: 600px;
 	display: flex;
 	flex-direction: row;
 	flex-wrap: nowrap;
@@ -190,58 +221,44 @@ main {
 }
 
 .biografia {
-	width: 30vw;
+	width: 50vw;
 	height: 40vh;
 	margin: auto;
 	margin: 80px 300px 50px 80px;
+	text-align: center;
 }
 
-section {
+section.flexDeMi {
 	img {
 		width: 26vw;
 		height: 50vh;
 		margin: auto;
-		margin: 80px 8px 15px 200px;
+		margin: 110px 8px 15px 200px;
 		}
 }
 
-section {
-	div.biografia {
-		h5.display-6 { 
+		 div h5.soy_yo .display-6 { 
 			text-align: center;}
-		p.lead {
-			text-align: center;
-		}
 
 		button.btn {
-			margin-left: 120px;
 			a {color: white;
 				text-decoration: none; 
 				}
 		}
-	}
-	}
-
+		
 /*página5: servicios.html*/
 
 div.formulario {
 	background-image: url(../img/appointment.jpg);
  	background-size: cover;
- 	height: 800px;
+ 	height: 130vh;
+ 	width: 100vw;
  		}
 
 div.col-6 {
-	margin-top: 60px;
-	margin-left: 150px;
+	margin-top: 7vh;
+	margin-left: 11vw;
 }
-
- 	
-
-	
-
-
-
-
 
 
 

@@ -14,7 +14,7 @@
 	<Header class="header__fotoFondo">
 		<img src="img/logo.png" alt="logo empresa" class="header__logo">
 
-		<nav class="navbar navbar-expand-lg navbar-light">
+		<nav class="navbar navbar-expand-lg navbar-blue">
   			<div class="container-fluid">
     			<a class="navbar-brand" href="#"></a>
     				<button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -40,10 +40,11 @@
           					</a>
              					<ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
                         <li><a class="dropdown-item" href="servicios.html">Consultar o Agendarme</a></a></li>
-            						<li><a class="dropdown-item" href="servicios.html">Odontología Preventiva</a></a></li>
-            						<li><a class="dropdown-item" href="servicios.html">Terapia Neural</a></li>
-            						<li><a class="dropdown-item" href="servicios.html">Implantes</a></li>
-            						<li><a class="dropdown-item" href="servicios.html">Reparación de prótesis</a></li>
+                        <li><hr class="dropdown-divider"></li>
+            						<li><a class="dropdown-item" href="#">Odontología Preventiva</a></a></li>
+            						<li><a class="dropdown-item" href="#">Terapia Neural</a></li>
+            						<li><a class="dropdown-item" href="#">Implantes</a></li>
+            						<li><a class="dropdown-item" href="#">Reparación de prótesis</a></li>
           						</ul>
         				</li>
       				</ul>
@@ -52,13 +53,11 @@
 		</nav>
 	</Header>
 
-  <section>
-    <div class="foto_Encabezado">
+  <section class="banner">
       <div class= "cuadro_descriptivo">
         <h3 class="display-4">Preguntas frecuentes</h3>
-        <p class="lead">Estas marcarán la diferencia entre una cita preventiva y una de urgencia.</p>
+        <p id="banner" class="lead">Estas marcarán la diferencia entre una cita preventiva y una de urgencia.</p>
       </div>
-    </div>
   </section>
 	
   <main>
@@ -96,23 +95,22 @@
          </h2>
          <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
           <div class="accordion-body">
-             <strong>Si el dolor no te permite llevar una vida regular y debes tomar analgésicos contantemente para controlarlo.</strong>Atento a: si tiene un inicio espontáneo y no tiene causa aparente. Los analgésicos ya no te hacen efecto. 
+             <strong>Si el dolor no te permite llevar una vida regular y debes tomar analgésicos contantemente para controlarlo.</strong> Atento a: si tiene un inicio espontáneo y no tiene causa aparente. Los analgésicos ya no te hacen efecto. 
             </div>
           </div>
         </div>
 
-      <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-                 <h2 class="accordion-header" id="headingOne">
-               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            3. ¿Cómo sé si tengo una urgencia odontológica?
-               </button>
-             </h2>
-           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-             <div class="accordion-body">
-               <strong>Si respondes afirmativamente a 2 o más de las siguientes afirmaciones te recomiendo asistir a consulta.</strong> 
-              </div>
-              <div class="accordion-body">
+        <div class="accordion-item">
+         <h2 class="accordion-header" id="headingThree">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       3. ¿Cómo sé si tengo una urgencia odontológica?
+           </button>
+         </h2>
+         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+             <strong>Si respondes afirmativamente a 2 o más de las siguientes afirmaciones te recomiendo asistir a consulta.</strong>
+            </div>
+            <div class="accordion-body">
                 Constantemente ingieres analgésicos para mejorar un dolor bucal.    
              </div>
              <div class="accordion-body">
@@ -127,20 +125,24 @@
              <div class="accordion-body">
                 Tienes sangrado constante de las encias o movilidad de dientes. 
              </div>
-           </div>
+          </div>
         </div>
 
-        <div class="accordion" id="accordionExample">
-          <div class="accordion-item">
-                 <h2 class="accordion-header" id="headingOne">
-               <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-            4. ¿Debo hacerme radiografías o exámenes complementarios?
-               </button>
-             </h2>
-           <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#accordionExample">
-             <div class="accordion-body">
-               <strong>Si tu odontólogo lo indica si es necesario.</strong> Son una herramienta muy útil para ver la boca en toda su extensión. Tu odontólogo las puede requerir para 1 diagnosticar, 2 al finalizar un tratamiento para corroborar la evolución de este con respecto al diagnóstico inicial.
-             </div>
+        <div class="accordion-item">
+         <h2 class="accordion-header" id="headingThree">
+           <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+       4. ¿Debo hacerme radiografías o exámenes complementarios?
+           </button>
+         </h2>
+         <div id="collapseThree" class="accordion-collapse collapse" aria-labelledby="headingThree" data-bs-parent="#accordionExample">
+          <div class="accordion-body">
+             <strong>Si tu odontólogo lo indica si es necesario.</strong>Son una herramienta muy útil para ver la boca en toda su extensión. Tu odontólogo las puede requerir para 1 diagnosticar, 2 al finalizar un tratamiento para corroborar la evolución de este con respecto al diagnóstico inicial.
+            </div>
+          </div>
+        </div>
+
+      
+        
            </div>
         </div>
      </div>
@@ -150,10 +152,10 @@
 	<footer>
     <div class= "main_contentFooter">
       <div class= "leftBox">
-        <p class="text-uppercase">Construyendo la confianza para que asistas a tu próxima consulta</p>
+        <p class="lead">Construyendo la confianza para que asistas a tu próxima consulta</p>
       </div>
       <div class= "social_icons">
-        <a href="https://www.facebook.com/Snovalinski-1775746269141223"> <img src="img/fb3.jpg" alt="facebook" class= "rounded"></a>
+        <a href="https://www.facebook.com/Snovalinski-1775746269141223"> <img src="img/faceit.png" alt="facebook" class= "rounded"></a>
         <a href="https://www.instagram.com/snovalinski/"> <img src="img/instagram.png" alt="instagram" class= "rounded"></a>
         <a href="https://www.linkedin.com/in/susan-novalinski-hung-5428bbb7/"> <img src="img/linkedin1.png" alt="linkedin" class= "rounded"></a>
       </div>
